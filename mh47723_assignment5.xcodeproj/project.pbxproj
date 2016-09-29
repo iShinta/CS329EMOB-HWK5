@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		244702A31D9DAAC700A3182B /* AnimalsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244702A21D9DAAC700A3182B /* AnimalsTableViewCell.swift */; };
 		2460AF0E1D99D25100660872 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2460AF0D1D99D25100660872 /* AppDelegate.swift */; };
 		2460AF101D99D25100660872 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2460AF0F1D99D25100660872 /* ViewController.swift */; };
 		2460AF131D99D25100660872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2460AF111D99D25100660872 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		244702A21D9DAAC700A3182B /* AnimalsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalsTableViewCell.swift; sourceTree = "<group>"; };
 		2460AF0A1D99D25100660872 /* mh47723_assignment5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mh47723_assignment5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2460AF0D1D99D25100660872 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2460AF0F1D99D25100660872 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				2460AF0D1D99D25100660872 /* AppDelegate.swift */,
 				2460AF0F1D99D25100660872 /* ViewController.swift */,
 				2460AF111D99D25100660872 /* Main.storyboard */,
+				244702A21D9DAAC700A3182B /* AnimalsTableViewCell.swift */,
 				2460AF141D99D25100660872 /* Assets.xcassets */,
 				2460AF161D99D25100660872 /* LaunchScreen.storyboard */,
 				2460AF191D99D25100660872 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2460AF101D99D25100660872 /* ViewController.swift in Sources */,
+				244702A31D9DAAC700A3182B /* AnimalsTableViewCell.swift in Sources */,
 				2460AF0E1D99D25100660872 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				2460AF341D99D25100660872 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2460AF351D99D25100660872 /* Build configuration list for PBXNativeTarget "mh47723_assignment5Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				2460AF371D99D25100660872 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2460AF381D99D25100660872 /* Build configuration list for PBXNativeTarget "mh47723_assignment5UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				2460AF3A1D99D25100660872 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
